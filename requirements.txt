@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+requests
+pillow
+numpy
+python-multipart
+folium
+geopandas
+shapely
+geojson
+apscheduler
