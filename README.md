@@ -51,7 +51,7 @@
 
 ---
 
-### Backend Setup (FastAPI)
+### Backend-Setup (FastAPI)
 
 1. **Navigate to project directory:**
    ```bash
