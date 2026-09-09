@@ -1,4 +1,4 @@
-# 🌾 Chennai AgroSmart - AI-Driven Precision Agriculture & Pilot Engine
+# 🌾 Chennai AgriSmart - AI-Driven Precision Agriculture & Pilot Engine
 
 > An ensemble 4-agent recommendation engine, interactive GIS mapping dashboard, environmental anomaly monitor, and intelligent alert system tailored for small farms and terrace gardens in Chennai, Tamil Nadu.
 
