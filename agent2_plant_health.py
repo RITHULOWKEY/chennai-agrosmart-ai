@@ -14,7 +14,7 @@ def _calculate_greenness_ratio(image: Image.Image) -> float:
     # Simple green pixel condition: G > R and G > B
     green_mask = (g > r) & (g > b)
     green_ratio = np.sum(green_mask) / (img_np.shape[0] * img_np.shape[1])
-    return float(green)
+    return float(green_ratio)
 
 def agent2_plant_health(image_base64: str, crop_type: str, days_since_planting: int) -> dict:
     """
