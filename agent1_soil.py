@@ -1,7 +1,7 @@
 def agent1_soil_recommendation(soil_type: str, crop_type: str, current_moisture: float) -> dict:
     """
     Analyze soil properties and recommend water quantity.
-    In Phase 1, we use rule-based logic mapping soil types to characteristi.
+    In Phase 1, we use rule-based logic mapping soil types to characteristics.
     """
     soil_type = soil_type.lower()
     
