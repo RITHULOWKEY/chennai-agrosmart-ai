@@ -14,7 +14,7 @@ def send_notification(phone: str, message: str):
     if ENABLE_TWILIO_SMS and TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN:
         try:
             from twilio.rest import Client
-            client = client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+            client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
             client.messages.create(
                 body=message,
                 from_=TWILIO_PHONE_NUMBER,
